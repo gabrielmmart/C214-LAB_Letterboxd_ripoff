@@ -10,6 +10,8 @@ jquery para o frontend.
 
 IGDB API para o banco de dados.
 
+JEST para teste unitário.
+
 # Funcionalidades
 
 Customização do perfil;
@@ -21,3 +23,9 @@ Adição de jogos para uma lista de jogos já jogados;
 Criação de análises e sistema de notas para jogos;
 
 Ranking de melhores jogos.
+
+# Colaboradores
+
+Gabriel Medeiros Martins GES 97
+
+Ramon Adonis GEC 1581
