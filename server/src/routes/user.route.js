@@ -12,7 +12,8 @@ router.post(
     "/signup",
     body("usuario")
     .exists().withMessage("requer usuario")
-    .isLength({ min: 8}).withMessage("Usuario minimo 8 caracteres").custom(async value => {
+    .isLength({ min: 8}).withMessage("Usuario minimo 8 caracteres")
+    .custom(async value => {
         const user = await userModel.findOne({ username: value });
         if (user) return Promise.reject("Nome de usuario ja usado");
     }),
@@ -93,6 +94,7 @@ router.post(
     .exists().withMessage("requer mediaPoster"),
     body("mediaRate")
     .exists().withMessage("requer mediaRate"),
+    requestHandler.validate,
     favoriteController.addFavorite
 )
 
