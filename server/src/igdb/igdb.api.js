@@ -8,7 +8,7 @@ const igdbApi = {
     mediaDetail: async ({ mediaType, page}) => await axiosClient.get(
         igdbEndpoints.mediaDetail({ mediaType, page})
     ),
-    mediaGenre: async ({ mediaType }) => await axiosClient.get(
+    mediaGenres: async ({ mediaType }) => await axiosClient.get(
         igdbEndpoints.mediaGenres({ mediaType })
     ),
     mediaCredits: async ({ mediaType, mediaId}) => await axiosClient.get(
@@ -31,5 +31,7 @@ const igdbApi = {
     ),
     personMedias: async ({ personId }) => await axiosClient.get(
         igdbEndpoints.personMedias({ personId })
-    ),
-}
+    )
+};
+
+export default igdbApi;

@@ -3,15 +3,15 @@ import igdbApi from "../igdb/igdb.api.js"
 
 const personDetail = async (req, res) => {
     try {
-        const { personId } = req.params
+        const { personId } = req.params;
 
-        const person = await igdbApi.personDetail({ personId })
+        const person = await igdbApi.personDetail({ personId });
 
-        responseHandler.ok(res, person)
+        responseHandler.ok(res, person);
     } catch {
-        responseHandler.error(res)
+        responseHandler.error(res);
     }
-}
+};
 
 const personMedias = async (req, res) => {
     try {
@@ -25,4 +25,4 @@ const personMedias = async (req, res) => {
     }
 };
 
-export default {personDetail, personMedias};
+export default { personDetail, personMedias };
