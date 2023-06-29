@@ -1,7 +1,7 @@
 # Projeto
 O projeto é um site que você usa para organizar um perfil com jogos que você já jogou, ou quer jogar, fazer reviews e olhar o perfil de outros usuários.
 
-# Tecnologias (sujeito a troca)
+# Tecnologias
 
 - Front end
     - Create react api
