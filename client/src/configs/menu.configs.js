@@ -14,16 +14,10 @@ const main = [
         state: "home"
     },
     {
-        display: "game",
-        path: "/game",
+        display: "games",
+        path: "/games",
         icon: <SlideshowOutlinedIcon/>,
         state: "game"
-    },
-    {
-        display: "tv series",
-        path: "/tv",
-        icon: <LiveTvOutlinedIcon/>,
-        state: "tv"
     },
     {
         display: "search",
