@@ -2,17 +2,38 @@
 O projeto é um site que você usa para organizar um perfil com jogos que você já jogou, ou quer jogar, fazer reviews e olhar o perfil de outros usuários.
 
 # Tecnologias (sujeito a troca)
-Node.js para o backend.
 
-React para criação de interfaces.
-
-Jquery para o frontend.
-
-MongoDB para banco de dados.
-
-IGDB API para mostrar os jogos.
-
-JEST para teste unitário.
+- Front end
+    - Create react api
+  
+    - Material UI
+ 
+    - SwiperJS
+      
+    - React router v6
+      
+    - Formik
+      
+    - Yup
+      
+    - Axios
+- Back end
+    - Express rest api
+      
+    - Express Validator
+      
+    - Jsonwebtoken
+      
+    - Mongoose
+      
+    - Axios
+      
+    - MongoDB
+      
+    - JEST
+      
+    - IGDB API
+  
 
 # Funcionalidades
 
