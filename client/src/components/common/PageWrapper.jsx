@@ -8,7 +8,7 @@ const PageWrapper = () => {
     useEffect(() => {
       window.scrollTo(0, 0);
       dispatch(setAppState)
-    }, [third])
+    }, [])
 
   return (
     <div>Page/Wrapper</div>
