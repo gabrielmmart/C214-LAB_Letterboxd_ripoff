@@ -31,3 +31,5 @@ Ranking de melhores jogos.
 Gabriel Medeiros Martins GES 97
 
 Ramon Adonis GEC 1581
+
+<img src = "https://sportbuzz.uol.com.br/media/stories/5-vezes-que-cristiano-ronaldo-decidiu-na-champions/assets/1.jpeg">
