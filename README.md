@@ -67,7 +67,9 @@ Forneça instruções claras sobre como instalar e configurar seu projeto. Inclu
 ## Recursos
 
 - Organização de um perfil com jogos que você já jogou
-- jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
+- Organização de um perfil com jogos que você quer jogar
+- Fazer reviews de jogos de sua escolha
+- Olhar o perfil de outros usuários
 
 
 ## Créditos
