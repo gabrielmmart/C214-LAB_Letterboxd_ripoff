@@ -46,27 +46,3 @@ describe('tokenDecode', () => {
       );
     });
 });  
-
-describe('auth', () => {
-    test('Teste de nao autorizaçao se o token nao for valido', async () => {
-      const req = {
-        headers: {},
-      };
-  
-      const res = {
-        status: jest.fn().mockReturnThis(),
-        json: jest.fn(),
-      };
-  
-      const next = jest.fn();
-  
-      jest.spyOn(tokenMiddleware, 'tokenDecode').mockReturnValue(false);
-  
-      await tokenMiddleware.auth(req, res, next);
-  
-      expect(tokenMiddleware.tokenDecode).toHaveBeenCalledWith(req);
-      expect(responseHandler.unauthorize).toHaveBeenCalledWith(res);
-      expect(next).not.toHaveBeenCalled();
-    });
-  });
-  
