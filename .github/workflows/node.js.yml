@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        mongodb-version: ['4.2', '4.4', '5.0', '6.0']
+        mongodb-version: ['5.0', '6.0']
 
     steps:
     - name: Git checkout
@@ -37,7 +37,7 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        mongodb-version: ['4.2', '4.4', '5.0', '6.0']
+        mongodb-version: ['5.0', '6.0']
 
     steps:
     - name: Git checkout
@@ -63,4 +63,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: relatorio_de_testes
-        path: Artefatos/
+        path: coverage/
