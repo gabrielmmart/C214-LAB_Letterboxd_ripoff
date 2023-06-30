@@ -1,4 +1,4 @@
-# Letter-boxd
+# MY GAME LIST
 Projeto realizado para o laboratório da disciplina de Engenharia de Software (C214).
 
 ![Imagem do Projeto](mygamelist-logo.png)
