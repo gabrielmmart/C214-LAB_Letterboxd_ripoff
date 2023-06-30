@@ -1,5 +1,5 @@
 # Letter-boxd
-O projeto consiste em um site onde você pode usar para organizar um perfil com jogos que você já jogou, jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
+Projeto realizado para o laboratório da disciplina de Engenharia de Software (C214).
 
 ![Imagem do Projeto](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hat5mynnaaiue5su88ko.png)
 
