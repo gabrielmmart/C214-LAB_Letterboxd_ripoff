@@ -1,7 +1,7 @@
 # Letter-boxd
 Projeto realizado para o laboratório da disciplina de Engenharia de Software (C214).
 
-![Imagem do Projeto](https://drive.google.com/file/d/1fnYFozAOJcJsxNVwoFyruQH8kdDHpk91/view?usp=sharing.png)
+![Imagem do Projeto](mygamelist-logo.png)
 
 # Tabela de Conteúdos
 
