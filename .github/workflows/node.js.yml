@@ -25,9 +25,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Install dependencies
-      run: npm i
-    - name: Install server dependencies
-      run: npm i --prefix server
-    - name: Run tests
-      run: npm test --prefix server
+    - run: npm i
+
+    - name: Testes do server
+      run: |
+        cd server
+        npm i
+        npm test
