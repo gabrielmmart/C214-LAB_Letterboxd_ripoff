@@ -45,7 +45,7 @@ Projeto realizado para o laboratório da disciplina de Engenharia de Software (C
       
     - JEST
       
-    - IGDB API
+    - RAWG API
   
 
 # Funcionalidades
