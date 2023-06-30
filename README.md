@@ -1,5 +1,17 @@
-# Projeto
-O projeto é um site que você usa para organizar um perfil com jogos que você já jogou, ou quer jogar, fazer reviews e olhar o perfil de outros usuários.
+# Letter-boxd
+O projeto consiste em um site onde você pode usar para organizar um perfil com jogos que você já jogou, jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
+
+![Imagem do Projeto](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hat5mynnaaiue5su88ko.png)
+
+# Tabela de Conteúdos
+
+- [Tecnologias](#tecnologias)
+- [Funcionalidades](#funcionalidades)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Recursos](#recursos)
+- [Créditos](#créditos)
+- [Colaboradores](#colaboradores)
 
 # Tecnologias
 
@@ -17,7 +29,9 @@ O projeto é um site que você usa para organizar um perfil com jogos que você 
     - Yup
       
     - Axios
+
 - Back end
+
     - Express rest api
       
     - Express Validator
@@ -47,10 +61,31 @@ Criação de análises e sistema de notas para jogos;
 
 Ranking de melhores jogos.
 
+# Instalação
+
+Forneça instruções claras sobre como instalar e configurar seu projeto. Inclua qualquer dependência ou requisito específico que os usuários precisem atender antes de usar o projeto.
+
+## Uso
+
+Explique como os usuários podem usar seu projeto. Forneça exemplos de código e instruções detalhadas para ajudar os usuários a começarem a trabalhar com seu projeto rapidamente.
+
+## Recursos
+
+Descreva os recursos principais do seu projeto. Isso pode incluir uma lista de funcionalidades, bibliotecas/frameworks utilizados e tecnologias relevantes. Se o seu projeto possuir comandos ou APIs específicas, explique como usá-las.
+
+
+## Créditos
+
+- Christopher de Souza Lima Francisco
+- Iago Luiz da Cruz Barbosa
+- Cristiano Ronaldo dos Santos Aveiro
+
+
 # Colaboradores
 
-Gabriel Medeiros Martins GES 97
+Gabriel Medeiros Martins - GES 97
 
-Ramon Adonis GEC 1581
+Ramon Adônis Pereira de Abreu - GEC 1581
 
 <img src = "https://sportbuzz.uol.com.br/media/stories/5-vezes-que-cristiano-ronaldo-decidiu-na-champions/assets/1.jpeg">
+
