@@ -8,7 +8,6 @@ Projeto realizado para o laboratório da disciplina de Engenharia de Software (C
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
-- [Uso](#uso)
 - [Recursos](#recursos)
 - [Créditos](#créditos)
 - [Colaboradores](#colaboradores)
