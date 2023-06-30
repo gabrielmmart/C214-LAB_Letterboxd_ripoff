@@ -22,12 +22,6 @@ const igdbEndpoints = {
     ),
     mediaSearch: ({ mediaType, query, page }) => igdbConfig.getUrl(
         `search/${mediaType}`, { query, page }
-    ),
-    personDetail: ({ personId }) => igdbConfig.getUrl(
-        `person/${personId}`
-    ),
-    personDetail: ({ personId }) => igdbConfig.getUrl(
-        `person/${personId}/combined_credits`
     )
 };
 

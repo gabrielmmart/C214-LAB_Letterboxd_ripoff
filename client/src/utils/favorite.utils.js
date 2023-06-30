@@ -1,5 +1,5 @@
 const favoriteUtils = {
-    check: ({ listFavorites, mediaid }) => listFavorites && listFavorites.find(e =>
+    check: ({ listFavorites, mediaId }) => listFavorites && listFavorites.find(e =>
     e.mediaId.toString() === mediaId.toString()) !== undefined
 };
 

@@ -1,5 +1,4 @@
 import HomePage from "../pages/HomePage";
-import PersonDetail from "../pages/PersonDetail";
 import FavoriteList from "../pages/FavoriteList";
 import MediaDetail from "../pages/MediaDetail";
 import MediaList from "../pages/MediaList";
@@ -13,7 +12,6 @@ export const routesGen = {
   mediaList: (type) => `/${type}`,
   mediaDetail: (type, id) => `/${type}/${id}`,
   mediaSearch: "/search",
-  person: (id) => `/person/${id}`,
   favoriteList: "/favorites",
   reviewList: "/reviews",
   passwordUpdate: "password-update"
@@ -24,11 +22,6 @@ const routes = [
     index: true,
     element: <HomePage />,
     state: "home"
-  },
-  {
-    path: "/person/:personId",
-    element: <PersonDetail />,
-    state: "person.detail"
   },
   {
     path: "/search",

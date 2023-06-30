@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1688148104655" clover="3.2.0">
+  <project timestamp="1688148104655" name="All files">
+    <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2" elements="31" coveredelements="25" complexity="0" loc="27" ncloc="27" packages="1" files="4" classes="4"/>
+    <file name="favorite.model.js" path="C:\Users\Desenvolvedor\Documents\github\C214-LAB_Letterboxd_ripoff\server\src\models\favorite.model.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+    </file>
+    <file name="model.options.js" path="C:\Users\Desenvolvedor\Documents\github\C214-LAB_Letterboxd_ripoff\server\src\models\model.options.js">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+    </file>
+    <file name="review.model.js" path="C:\Users\Desenvolvedor\Documents\github\C214-LAB_Letterboxd_ripoff\server\src\models\review.model.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+    </file>
+    <file name="user.model.js" path="C:\Users\Desenvolvedor\Documents\github\C214-LAB_Letterboxd_ripoff\server\src\models\user.model.js">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -7,11 +7,11 @@ const mediaCategory = {
     top_rated: "top_rated"
 }
 
-const backdropPath = (imgEndpoint) => `https://media.rawg.io/media/screenshots/${imgEndpoint}.jpg`
+const backdropPath = (gameId) => `https://api.rawg.io/api/games/${gameId}/screenshots`
 
-const posterPath = (imgEndpoint) => `https://images.igdb.com/igdb/image/upload/t_screenshot_huge/${imgEndpoint}.jpg`
+const posterPath = (gameId) => `https://api.rawg.io/api/games/${gameId}/screenshots`
 
-const youtubePath = (videoId) => `https://www.youtube.com/embed/${videoId}?controls=0`;
+const youtubePath = (videoId) => `https://api.rawg.io/api/games/${id}/youtube`;
 
 const igdbConfigs = {
     mediaType,

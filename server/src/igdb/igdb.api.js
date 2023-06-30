@@ -21,16 +21,10 @@ const igdbApi = {
         igdbEndpoints.mediaImages({ mediaType, mediaId})
     ),
     mediaRecommend: async ({ mediaType, mediaId}) => await axiosClient.get(
-        igdbEndpoints.mediaRecommend({ mediaType, MediaId})
+        igdbEndpoints.mediaRecommend({ mediaType, mediaId})
     ),
     mediaSearch: async ({ mediaType, query, page}) => await axiosClient.get(
         igdbEndpoints.mediaSearch({ mediaType, query, page})
-    ),
-    personDetail: async ({ personId }) => await axiosClient.get(
-        igdbEndpoints.personDetail({ personId })
-    ),
-    personMedias: async ({ personId }) => await axiosClient.get(
-        igdbEndpoints.personMedias({ personId })
     )
 };
 

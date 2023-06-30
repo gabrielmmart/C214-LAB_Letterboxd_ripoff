@@ -3,7 +3,7 @@ const modelOptions = {
         virtuals: true,
         transform: (_, obj) => {
             delete obj._id;
-            return obj
+            return obj;
         }
     },
     toObject: {
@@ -17,4 +17,4 @@ const modelOptions = {
     timestamps: true
 };
 
-export default modelOptions;
+module.exports = modelOptions;
