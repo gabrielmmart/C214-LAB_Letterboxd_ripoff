@@ -13,7 +13,7 @@ const userApi = {
         try {
             const response = await publicClient.post(
                 userEndpoints.signin,
-                { username, passowrd}
+                { username, password}
             );
 
             return { response}

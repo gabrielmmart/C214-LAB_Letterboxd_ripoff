@@ -25,4 +25,4 @@ publicClient.interceptors.response.use((response) => {
     throw err.response.data
 })
 
-export default privateClient;
+export default publicClient;
