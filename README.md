@@ -65,13 +65,9 @@ Ranking de melhores jogos.
 
 Forneça instruções claras sobre como instalar e configurar seu projeto. Inclua qualquer dependência ou requisito específico que os usuários precisem atender antes de usar o projeto.
 
-## Uso
-
-Explique como os usuários podem usar seu projeto. Forneça exemplos de código e instruções detalhadas para ajudar os usuários a começarem a trabalhar com seu projeto rapidamente.
-
 ## Recursos
 
-Descreva os recursos principais do seu projeto. Isso pode incluir uma lista de funcionalidades, bibliotecas/frameworks utilizados e tecnologias relevantes. Se o seu projeto possuir comandos ou APIs específicas, explique como usá-las.
+O projeto consiste em um site onde você pode usar para organizar um perfil com jogos que você já jogou, jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
 
 
 ## Créditos
