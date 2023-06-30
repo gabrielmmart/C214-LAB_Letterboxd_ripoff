@@ -1,6 +1,6 @@
-import userModel from "../models/user.model.js";
-import jsonwebtoken from "jsonwebtoken";
-import responseHandler from "../handlers/response.handler.js";
+const userModel = require("../models/user.model.js");
+const jsonwebtoken = require("jsonwebtoken");
+const responseHandler = require("../handlers/response.handler.js");
 
 const signup = async (req, res) => {
   try {
@@ -95,7 +95,7 @@ const getInfo = async (req, res) => {
   }
 };
 
-export default {
+module.exports = {
   signup,
   signin,
   getInfo,

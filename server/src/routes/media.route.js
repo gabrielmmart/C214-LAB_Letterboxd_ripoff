@@ -1,5 +1,5 @@
-import express from "express";
-import mediaController from "../controllers/media.controller.js";
+const express = require("express");
+const mediaController = require("../controllers/media.controller.js");
 
 const router = express.Router({ mergeParams: true });
 
@@ -11,4 +11,4 @@ router.get("/detail/:mediaId", mediaController.getDetail);
 
 router.get("/:mediaCategory", mediaController.getList);
 
-export default router;
+module.exports = router;

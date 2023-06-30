@@ -1,6 +1,6 @@
 {
   "name": "mern-stack",
-  "type": "module",
+  "type": "commonjs",
   "version": "0.0.1",
   "author": "Gabriel Medeiros e Ramon Adonis",
   "main": "index.js",

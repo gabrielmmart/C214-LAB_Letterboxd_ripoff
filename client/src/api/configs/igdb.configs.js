@@ -11,7 +11,7 @@ const backdropPath = (gameId) => `https://api.rawg.io/api/games/${gameId}/screen
 
 const posterPath = (gameId) => `https://api.rawg.io/api/games/${gameId}/screenshots`
 
-const youtubePath = (videoId) => `https://api.rawg.io/api/games/${id}/youtube`;
+const youtubePath = (id) => `https://api.rawg.io/api/games/${id}/youtube`;
 
 const igdbConfigs = {
     mediaType,

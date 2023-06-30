@@ -22,11 +22,11 @@ const SigninForm = ({ switchAuthState }) => {
     },
     validationSchema: Yup.object({
       username: Yup.string()
-        .min(8, "username minimum 8 characters")
-        .required("username is required"),
+        .min(8, "usuario deve ter pelo menos 8 digitos")
+        .required("este campo nao pode estar vazio"),
       password: Yup.string()
-        .min(8, "password minimum 8 characters")
-        .required("password is required")
+        .min(8, "usuario deve ter pelo menos 8 digitos")
+        .required("este campo nao pode estar vazio")
     }),
     onSubmit: async values => {
       setErrorMessage(undefined);
@@ -39,7 +39,7 @@ const SigninForm = ({ switchAuthState }) => {
         signinForm.resetForm();
         dispatch(setUser(response));
         dispatch(setAuthModalOpen(false));
-        toast.success("Sign in success");
+        toast.success("LogIn bem-sucedido");
       }
 
       if (err) setErrorMessage(err.message);

@@ -1,7 +1,7 @@
-import express from "express";
-import userRoute from "./user.route.js";
-import mediaRoute from "./media.route.js";
-import reviewRoute from "./review.route.js";
+const express = require("express");
+const userRoute = require("./user.route.js");
+const mediaRoute = require("./media.route.js");
+const reviewRoute = require("./review.route.js");
 
 const router = express.Router();
 
@@ -9,4 +9,4 @@ router.use("/user", userRoute);
 router.use("/reviews", reviewRoute);
 router.use("/:mediaType", mediaRoute);
 
-export default router;
+module.exports = router;

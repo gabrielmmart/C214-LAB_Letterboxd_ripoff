@@ -25,4 +25,4 @@ const igdbEndpoints = {
     )
 };
 
-export default igdbEndpoints;
+module.exports = igdbEndpoints;

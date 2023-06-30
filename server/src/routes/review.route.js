@@ -1,8 +1,8 @@
-import express from "express";
-import { body } from "express-validator";
-import reviewController from "../controllers/review.controller.js";
-import tokenMiddleware from "../middlewares/token.middleware.js";
-import requestHandler from "../handlers/request.handler.js";
+const express = require("express");
+const { body } = require("express-validator");
+const reviewController = require("../controllers/review.controller.js");
+const tokenMiddleware = require("../middlewares/token.middleware.js");
+const requestHandler = require("../handlers/request.handler.js");
 
 const router = express.Router({ mergeParams: true });
 
@@ -38,4 +38,4 @@ router.delete(
   reviewController.remove
 );
 
-export default router;
+module.exports = router;
