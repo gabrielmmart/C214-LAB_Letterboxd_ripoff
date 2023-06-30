@@ -66,7 +66,8 @@ Forneça instruções claras sobre como instalar e configurar seu projeto. Inclu
 
 ## Recursos
 
-O projeto consiste em um site onde você pode usar para organizar um perfil com jogos que você já jogou, jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
+- Organização de um perfil com jogos que você já jogou
+- jogos que você quer jogar, fazer reviews e também pode olhar o perfil de outros usuários.
 
 
 ## Créditos
