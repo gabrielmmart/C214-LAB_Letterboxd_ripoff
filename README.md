@@ -1,7 +1,7 @@
 # Letter-boxd
 Projeto realizado para o laboratório da disciplina de Engenharia de Software (C214).
 
-![Imagem do Projeto]([https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hat5mynnaaiue5su88ko.png](https://drive.google.com/file/d/1fnYFozAOJcJsxNVwoFyruQH8kdDHpk91/view?usp=sharing))
+![Imagem do Projeto](https://drive.google.com/file/d/1fnYFozAOJcJsxNVwoFyruQH8kdDHpk91/view?usp=sharing)
 
 # Tabela de Conteúdos
 
