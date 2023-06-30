@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
