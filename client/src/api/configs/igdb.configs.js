@@ -7,9 +7,9 @@ const mediaCategory = {
     top_rated: "top_rated"
 }
 
-const backdropPath = (imgEndpoint) => `https://image.igdb.org/t/p/original${imgEndpoint}`
+const backdropPath = (imgEndpoint) => `https://media.rawg.io/media/screenshots/${imgEndpoint}.jpg`
 
-const posterPath = (imgEndpoint) => `https://image.igdb.org/t/p/w500${imgEndpoint}`
+const posterPath = (imgEndpoint) => `https://images.igdb.com/igdb/image/upload/t_screenshot_huge/${imgEndpoint}.jpg`
 
 const youtubePath = (videoId) => `https://www.youtube.com/embed/${videoId}?controls=0`;
 

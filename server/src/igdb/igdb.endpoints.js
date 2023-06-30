@@ -6,9 +6,9 @@ const igdbEndpoints = {
         `${mediaType}/${mediaId}`
     ),
     mediaGenres: ({ mediaType }) => igdbConfig.getUrl(
-        `genre/${mediaType}/list`
+        `genres/${mediaType}/list`
     ),
-    mediaCredits: ({ mediaType, mediaId }) => igdbConfig.getUrl(
+    mediaCredits: ({ mediaType, mediaId }) => igdbConfig.getUarl(
         `${mediaType}/${mediaId}/credits`
     ),
     mediaVideos: ({ mediaType, mediaId }) => igdbConfig.getUrl(
