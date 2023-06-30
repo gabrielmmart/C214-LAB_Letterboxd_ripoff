@@ -1,20 +1,22 @@
-import { useEffect } from "react"
-import { useDispatch } from "react-redux"
-import { setAppState } from "../../redux/features/appStateSlice"
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { setAppState } from "../../redux/features/appStateSlice";
 
-const PageWrapper = ({state, children}) => {
-    const dispatch = useDispatch()
+const PageWrapper = ({ state, children }) => {
+  const dispatch = useDispatch();
 
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    useEffect(() => {
-      window.scrollTo(0, 0);
-      dispatch(setAppState)
-    }, [state, dispatch])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    dispatch(setAppState(state));
+  }, [state, dispatch]);
 
   return (
-    <div>Page/Wrapper</div>
-  )
-}
+    children
+  );
+};
 
-export default PageWrapper
+export default PageWrapper;

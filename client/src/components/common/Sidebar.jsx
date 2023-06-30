@@ -43,11 +43,11 @@ const Topbar = () => {
     dispatch(setThemeMode(theme));
   };
 
-  const toggleSidebar = () => setSidebarOpen(!sidebarOpen)
+  const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
   return (
     <>
-    <Sidebar open={sidebarOpen} toggleSidebar={toggleSidebar} />
+      <Sidebar open={sidebarOpen} toggleSidebar={toggleSidebar} />
       <ScrollAppBar>
         <AppBar elevation={0} sx={{ zIndex: 9999 }}>
           <Toolbar sx={{ alignItems: "center", justifyContent: "space-between" }}>
@@ -66,15 +66,15 @@ const Topbar = () => {
             </Stack>
 
             {/* main menu */}
-            <Box flexGrow={1} alignItems="center" display= {{ xs: "none", md: "flex" }}>
-              <Box sx={{ marginRight: "30px"}}>
+            <Box flexGrow={1} alignItems="center" display={{ xs: "none", md: "flex" }}>
+              <Box sx={{ marginRight: "30px" }}>
                 <Logo />
               </Box>
               {menuConfigs.main.map((item, index) => (
                 <Button
                   key={index}
                   sx={{
-                    color: appState.includes(item.state) ? "primary.constrastText" : "inherit",
+                    color: appState.includes(item.state) ? "primary.contrastText" : "inherit",
                     mr: 2
                   }}
                   component={Link}
@@ -85,11 +85,11 @@ const Topbar = () => {
                 </Button>
               ))}
               <IconButton
-                sx={{ color: "inherit"}}
+                sx={{ color: "inherit" }}
                 onClick={onSwithTheme}
               >
-                {themeMode === themeModes.dark && <DarkModeOutlinedIcon/>}
-                {themeMode === themeModes.light && <WbSunnyOutlinedIcon/>}
+                {themeMode === themeModes.dark && <DarkModeOutlinedIcon />}
+                {themeMode === themeModes.light && <WbSunnyOutlinedIcon />}
               </IconButton>
             </Box>
             {/* main menu */}
@@ -100,8 +100,8 @@ const Topbar = () => {
                 variant="contained"
                 onClick={() => dispatch(setAuthModalOpen(true))}
               >
-                 sign in
-                </Button>}
+                sign in
+              </Button>}
             </Stack>
             {user && <UserMenu />}
             {/* user menu */}
