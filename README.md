@@ -5,6 +5,12 @@ Projeto realizado para o laboratório da disciplina de Engenharia de Software (C
 
 # Tabela de Conteúdos
 
+VÍDEO DEMONSTRANDO O FUNCIONAMENTO DO PROJETO:
+
+https://www.youtube.com/watch?v=heIFHM_JRMk
+
+# Tabela de Conteúdos
+
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
