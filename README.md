@@ -3,11 +3,14 @@ Projeto realizado para o laboratório da disciplina de Engenharia de Software (C
 
 ![Imagem do Projeto](mygamelist-logo.png)
 
-# Tabela de Conteúdos
+# Vídeo Demonstrando o funcionamento do projeto
 
 VÍDEO DEMONSTRANDO O FUNCIONAMENTO DO PROJETO:
 
-https://www.youtube.com/watch?v=heIFHM_JRMk
+   ```sh
+   https://www.youtube.com/watch?v=heIFHM_JRMk
+   ```
+
 
 # Tabela de Conteúdos
 
