@@ -50,7 +50,6 @@ Projeto realizado para o laboratório da disciplina de Engenharia de Software (C
 
 # Funcionalidades
 
-Customização do perfil;
 
 Adição de jogos para uma lista de desejos;
 
@@ -106,19 +105,11 @@ Ranking de melhores jogos.
    yarn start
    ```
 
-## Recursos
-
-- Organização de um perfil com jogos que você já jogou
-- Organização de um perfil com jogos que você quer jogar
-- Fazer reviews de jogos de sua escolha
-- Olhar o perfil de outros usuários
-
 
 ## Créditos
 
 - Christopher de Souza Lima Francisco
 - Iago Luiz da Cruz Barbosa
-- Cristiano Ronaldo dos Santos Aveiro
 
 
 # Colaboradores
@@ -127,5 +118,4 @@ Gabriel Medeiros Martins - GES 97
 
 Ramon Adônis Pereira de Abreu - GEC 1581
 
-<img src = "https://sportbuzz.uol.com.br/media/stories/5-vezes-que-cristiano-ronaldo-decidiu-na-champions/assets/1.jpeg">
 
